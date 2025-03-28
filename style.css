@@ -56,7 +56,10 @@ header {
    margin-left: 0;
    
 }
-
+.header-section {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
 .header-imagen {
     display: flex;
     width: 322px;
@@ -71,15 +74,7 @@ header {
     height: 150px;
   
 }
-.header-section {
-    display: flex;
-    flex-direction: column;
-    width: 613px;
-    height: 150px;
-    padding-top: 14px;    
-    padding-bottom: 14px;
-   
-}
+
 .flex-direction-row {
     display: flex;
     gap: 20px;
@@ -152,11 +147,12 @@ header {
     left: 220px;
 }
 
-/* .line{
+.line{
  height: 1px;
- background-color: #0095F6;
- margin-top: 300px;
-} */
+ width: 50%;
+ background-color: #dbdbdb;
+ margin-top: 500px;
+} 
 
 .small-picture  {
     display: flex;
@@ -197,19 +193,17 @@ main .border {
     align-items: flex-end;
     justify-content: space-evenly;
     width: 353px;
-    height: 530px;
+    /*height: 530px;*/
     top: 494px;   
     padding-left: 180px;
+   
  
 }
-
 .Toogle img {
     display: flex;
     width: 589px;
     height: 53px;
     
-  
-   
 }
 
 .S-post {
@@ -219,6 +213,7 @@ main .border {
    margin: 0px;
     width: 953px;
     height: 1898px;
+  
  
 
 }
@@ -230,6 +225,7 @@ main .border {
   height: 293px;
   gap: 10px;
   object-fit: cover;
+ top: 600px
 
 
 }
